@@ -1,0 +1,6 @@
+channel,n_cases,seconds,cases_per_second,input,projected_seconds_for_251734_cases
+learning (GBDT scoring),56962,0.3215512809993015,177147.48273736075,ULB test split (real),1.4210419256886726
+isolation forest scoring,56962,0.4678120559992749,121762.57381466092,ULB test split (real),2.0674168762494554
+autoencoder scoring (incl. fit on 40k),56962,22.57759560500017,2522.9435851612498,ULB test split (real),99.77789494801995
+conformance (PM4Py A* alignment),400,0.18191805199967348,2198.7922342127868,simulated P2P log (BPI 2019 not obtained),114.48739725521452
+conformance (inductive miner discovery),80,0.02133006500025658,3750.5745997041113,simulated P2P log (BPI 2019 not obtained),67.11878228468238

@@ -1,0 +1,6 @@
+flow_type,detector,mean,std,count
+"3-way match, invoice after GR",AE,0.7589506615303352,0.08259378864143595,5
+"3-way match, invoice after GR",GBDT (records),0.7996435313634909,0.11728248410262108,5
+"3-way match, invoice after GR",IF,0.8115476395867599,0.08038320263343726,5
+"3-way match, invoice after GR",Rules,0.01637068632242008,0.00403234016020106,5
+"3-way match, invoice after GR",TSEQ,0.25085069239654106,0.11237938000696081,5

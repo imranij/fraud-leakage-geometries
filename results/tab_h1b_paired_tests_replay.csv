@@ -1,0 +1,5 @@
+flow_type,metric,conf_mean,gbdt_phi_mean,mean_diff,sd_diff,t_p,sign_pos,n,estimator
+"3-way match, invoice after GR",vw_recall_at_1pct_fpr,0.12664931755002584,0.8874469045173182,-0.7607975869672924,0.12473813257675041,0.00016738774124823135,0,5,token-based replay fitness (SUBSTITUTION for optimal alignment)
+"3-way match, invoice after GR",count_recall_at_1pct_fpr,0.045853658536585365,0.735609756097561,-0.6897560975609756,0.05123112528045316,7.2506491042400634e-06,0,5,token-based replay fitness (SUBSTITUTION for optimal alignment)
+"3-way match, invoice before GR",vw_recall_at_1pct_fpr,0.0712539423504475,0.8038685077031371,-0.7326145653526895,0.048518275631214636,4.589813456218814e-06,0,5,token-based replay fitness (SUBSTITUTION for optimal alignment)
+"3-way match, invoice before GR",count_recall_at_1pct_fpr,0.030029440628066735,0.822963689892051,-0.7929342492639843,0.025048575109127034,2.386805391193235e-07,0,5,token-based replay fitness (SUBSTITUTION for optimal alignment)
