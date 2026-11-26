@@ -1,0 +1,22 @@
+{
+  "n_injected": 3591,
+  "rate": 0.01,
+  "by_type": {
+    "SPLIT_PAY": 884,
+    "DUP_EXACT": 627,
+    "WRONG_PAYEE": 602,
+    "DUP_NEAR": 592,
+    "TRANSPOSE": 566,
+    "DOUBLE_FX": 320
+  },
+  "host": "PaySim test split",
+  "seed": 0,
+  "type_mix": {
+    "DUP_EXACT": 1,
+    "DUP_NEAR": 1,
+    "WRONG_PAYEE": 1,
+    "TRANSPOSE": 1,
+    "DOUBLE_FX": 0.5,
+    "SPLIT_PAY": 0.5
+  }
+}

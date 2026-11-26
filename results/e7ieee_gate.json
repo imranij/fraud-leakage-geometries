@@ -1,0 +1,101 @@
+{
+  "host": "IEEE-CIS Fraud Detection, test split of the e20 temporal split (147635 transactions, TransactionDT > its 75th percentile)",
+  "n_records_host": 147635,
+  "n_fraud_host": 5100,
+  "n_day_periods": 53,
+  "rates": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "hard_variants": [
+    false,
+    true
+  ],
+  "type_mix": {
+    "DUP_EXACT": 1,
+    "DUP_NEAR": 1,
+    "WRONG_PAYEE": 1,
+    "TRANSPOSE": 1,
+    "DOUBLE_FX": 0.5,
+    "SPLIT_PAY": 0.5
+  },
+  "tolerance_jsd": 0.1,
+  "jsd_literal_union_support": 1.0,
+  "jsd_coarse_mapping": 0.19256143887606872,
+  "shared_support_literal": [],
+  "verdict_literal": "FAIL",
+  "verdict_coarse": "FAIL",
+  "verdict": "FAIL",
+  "most_divergent_types": [
+    "atypical role",
+    "duplicate invoice",
+    "SPLIT_PAY"
+  ],
+  "most_divergent_detail": [
+    {
+      "type": "atypical role",
+      "injected_share": 0.0,
+      "real_share": 0.39554177490991366,
+      "abs_diff": 0.39554177490991366
+    },
+    {
+      "type": "duplicate invoice",
+      "injected_share": 0.0,
+      "real_share": 0.2693929998044638,
+      "abs_diff": 0.2693929998044638
+    },
+    {
+      "type": "SPLIT_PAY",
+      "injected_share": 0.25289823958780594,
+      "real_share": 0.0,
+      "abs_diff": 0.25289823958780594
+    }
+  ],
+  "injected_vocabulary": [
+    "DOUBLE_FX",
+    "DUP_EXACT",
+    "DUP_NEAR",
+    "SPLIT_PAY",
+    "TRANSPOSE",
+    "WRONG_PAYEE"
+  ],
+  "real_vocabulary": [
+    "atypical role",
+    "duplicate invoice",
+    "invoice before purchase order",
+    "repeated clearing",
+    "skipped goods receipt",
+    "value mismatch"
+  ],
+  "coarse_injected": {
+    "value-like": 0.24983898668956633,
+    "duplicate-like": 0.5853907256333191,
+    "party-like": 0.16477028767711463
+  },
+  "coarse_real": {
+    "control-step": 0.12743372719908377,
+    "duplicate-like": 0.460236319450264,
+    "value-like": 0.016788178440738568,
+    "party-like": 0.39554177490991366
+  },
+  "previous_hosts": {
+    "ULB": {
+      "jsd_literal_union_support": 1.0,
+      "jsd_coarse_mapping": 0.1956178423430716,
+      "verdict": "FAIL"
+    },
+    "PaySim": {
+      "jsd_literal_union_support": 1.0,
+      "jsd_coarse_mapping": 0.19224205234696934,
+      "verdict": "FAIL"
+    }
+  },
+  "reading": "The three hosts the design names have now all been run. The literal distance is 1.000 on every host because the seeded vocabulary and the BPI 2019 vocabulary are disjoint; the coarse mapping distance is a property of the type mix and the real log, not of the host. The gate fails on all three.",
+  "seconds": 30.5
+}

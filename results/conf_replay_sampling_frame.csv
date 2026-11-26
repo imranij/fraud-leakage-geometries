@@ -1,0 +1,4 @@
+flow_type,n_flow_cases,n_frame,sampled_negatives,n_neg_sampled,n_variants,coverage_of_frame,n_reference_cases,n_reference_variants,seed,seconds
+"3-way match, invoice after GR",15182,15182,False,,4228,1.0,6125,940,0,23.9
+"3-way match, invoice before GR",221010,33396,True,30000.0,3301,1.0,111090,669,0,4.0
+2-way match,1044,1044,False,,148,1.0,162,30,0,0.1

@@ -1,0 +1,22 @@
+{
+  "n_injected": 701,
+  "rate": 0.01,
+  "by_type": {
+    "SPLIT_PAY": 194,
+    "WRONG_PAYEE": 121,
+    "TRANSPOSE": 113,
+    "DUP_EXACT": 112,
+    "DUP_NEAR": 93,
+    "DOUBLE_FX": 68
+  },
+  "host": "ULB credit-card (test split)",
+  "seed": 0,
+  "type_mix": {
+    "DUP_EXACT": 1,
+    "DUP_NEAR": 1,
+    "WRONG_PAYEE": 1,
+    "TRANSPOSE": 1,
+    "DOUBLE_FX": 0.5,
+    "SPLIT_PAY": 0.5
+  }
+}

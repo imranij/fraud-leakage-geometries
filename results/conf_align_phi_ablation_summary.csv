@@ -1,0 +1,9 @@
+flow_type,detector,mean,std
+"3-way match, invoice after GR",CONF (alignments),0.49084053739236466,0.2638821972051847
+"3-way match, invoice after GR",GBDT+phi (alignment moves only),0.9963178611980592,0.0036502929796124552
+"3-way match, invoice after GR","GBDT+phi (alignments, full)",0.973463440247602,0.04913821881485458
+"3-way match, invoice after GR",GBDT+phi (typed deviations only),0.973463440247602,0.04913821881485458
+"3-way match, invoice before GR",CONF (alignments),0.069198553096725,0.017501742625499223
+"3-way match, invoice before GR",GBDT+phi (alignment moves only),0.9468464723950202,0.03579158787195233
+"3-way match, invoice before GR","GBDT+phi (alignments, full)",0.950584779395226,0.0268845664598955
+"3-way match, invoice before GR",GBDT+phi (typed deviations only),0.9041181407401288,0.026985986410921092

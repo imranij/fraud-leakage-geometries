@@ -1,0 +1,11 @@
+flow_type,comparison,left,right,metric,left_mean,right_mean,mean_diff,sd_diff,t_p,sign_pos,n
+"3-way match, invoice before GR","H1(b), token-replay substitute",CONF (token replay),GBDT+phi (token replay),vw_recall_at_1pct_fpr,0.07559297356307922,0.7681221107937,-0.6925291372306208,0.05891735578147263,1.2452382766416299e-05,0,5
+"3-way match, invoice before GR","H1(b), token-replay substitute",CONF (token replay),GBDT+phi (token replay),count_recall_at_1pct_fpr,0.028459273797841016,0.8131501472031403,-0.7846908734052993,0.01853694830715228,7.468729177085322e-08,0,5
+"3-way match, invoice before GR",supervised vs isolation forest,GBDT (records),IF,vw_recall_at_1pct_fpr,0.4783891877484959,0.07961832308980815,0.3987708646586878,0.048618417769475335,5.1995049792350235e-05,5,5
+"3-way match, invoice before GR",supervised vs isolation forest,GBDT (records),IF,count_recall_at_1pct_fpr,0.1623159960745829,0.008243375858684985,0.15407262021589796,0.005330118003532982,3.432131836389704e-07,5,5
+"3-way match, invoice before GR",isolation forest vs the value-only null,IF,VALUE ALONE (null),vw_recall_at_1pct_fpr,0.07961832308980815,0.4774788014851093,-0.39786047839530114,0.05115030346328967,6.414606321006878e-05,0,5
+"3-way match, invoice before GR",isolation forest vs the value-only null,IF,VALUE ALONE (null),count_recall_at_1pct_fpr,0.008243375858684985,0.0592737978410206,-0.05103042198233563,0.005146265202012518,2.4490462714175658e-05,0,5
+"3-way match, invoice before GR",autoencoder vs the value-only null,AE,VALUE ALONE (null),vw_recall_at_1pct_fpr,0.06304456469649047,0.4774788014851093,-0.4144342367886188,0.06255969435687057,0.00012091672168754511,0,5
+"3-way match, invoice before GR",autoencoder vs the value-only null,AE,VALUE ALONE (null),count_recall_at_1pct_fpr,0.015309126594700687,0.0592737978410206,-0.04396467124631992,0.01025503472236556,0.0006617252429809171,0,5
+"3-way match, invoice before GR",supervised vs the value-only null,GBDT (records),VALUE ALONE (null),vw_recall_at_1pct_fpr,0.4783891877484959,0.4774788014851093,0.0009103862633866421,0.011995093357738712,0.8734756102482082,3,5
+"3-way match, invoice before GR",supervised vs the value-only null,GBDT (records),VALUE ALONE (null),count_recall_at_1pct_fpr,0.1623159960745829,0.0592737978410206,0.10304219823356234,0.000981354268891066,1.974247173313383e-09,5,5

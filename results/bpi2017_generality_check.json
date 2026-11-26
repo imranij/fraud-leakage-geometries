@@ -1,0 +1,53 @@
+{
+ "log": "BPI Challenge 2017 (loan applications)",
+ "role_in_the_manuscript": "process-generality check only; no dissociation, no value at budget",
+ "verification": {
+  "n_events_file": 1202267,
+  "n_cases_file": 31509,
+  "n_events_published": 1202267,
+  "n_cases_published": 31509,
+  "events_match": true,
+  "cases_match": true,
+  "n_activities": 26
+ },
+ "n_variants_all_events": 15930,
+ "n_variants_complete_only": 5623,
+ "reference_set_rule": "contains A_Pending and none of ['A_Cancelled', 'A_Denied']",
+ "n_reference_cases": 17228,
+ "n_reference_variants": 10877,
+ "primary_noise_threshold": 0.2,
+ "fitness_at_primary": 0.9754283610292404,
+ "precision_at_primary": 0.3849628380606084,
+ "discovery_seconds_at_primary": 5.19,
+ "alignment": {
+  "variant": "PM4Py optimal alignment, Dijkstra without heuristics (the variant e11 used on BPI 2019)",
+  "noise_threshold": 0.2,
+  "budget_seconds": 150.0,
+  "n_variants_submitted": 400,
+  "n_variants_completed": 400,
+  "cases_covered_by_submitted_variants": 13066,
+  "seconds_used": 24.8,
+  "median_seconds_per_variant": 0.05539870262145996,
+  "mean_seconds_per_variant": 0.06188733756542206,
+  "max_seconds_per_variant": 0.9558539390563965,
+  "p90_seconds_per_variant": 0.10374999046325685,
+  "cases_covered_by_completed_variants": 13066,
+  "share_of_cases_covered_by_completed_variants": 0.4146751721730299,
+  "mean_alignment_cost": 35932.63,
+  "mean_alignment_fitness": 0.8845186452256126,
+  "projected_hours_for_all_variants": 0.2738514687269926,
+  "random_sample": {
+   "n_variants_submitted": 300,
+   "n_variants_completed": 300,
+   "seconds_used": 33.0,
+   "median_seconds_per_variant": 0.0965346097946167,
+   "mean_seconds_per_variant": 0.10986117283503215,
+   "max_seconds_per_variant": 1.2497797012329102,
+   "p90_seconds_per_variant": 0.1817103147506714,
+   "mean_trace_len": 48.053333333333335,
+   "mean_alignment_fitness": 0.8120524344751776,
+   "projected_hours_for_all_variants": 0.48613568979501726
+  }
+ },
+ "total_seconds": 73.6
+}

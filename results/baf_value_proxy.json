@@ -1,0 +1,20 @@
+{
+  "dataset": "Bank Account Fraud (NeurIPS 2022), Base variant",
+  "rows": 1000000,
+  "cols": 32,
+  "positives": 11029,
+  "positive_rate": 0.011029,
+  "split": "temporal: train months 0-5, test months 6-7 (month is not a feature)",
+  "n_train_rows_available": 794989,
+  "n_train_rows_used": 128151,
+  "n_test_rows": 205011,
+  "n_test_positives": 2878,
+  "value_proxy_field": "proposed_credit_limit",
+  "value_proxy_definition": "the credit line the application requests, taken as the exposure the institution carries if a fraudulent application is approved. BAF records no monetary loss; this is a proxy for exposure, not an observed amount.",
+  "value_proxy_distinct_values": 12,
+  "value_proxy_mean_all": 515.85101,
+  "value_proxy_mean_positives": 833.9867621724544,
+  "value_proxy_mean_negatives": 512.3031615689439,
+  "test_positive_value_total": 2316970.0,
+  "count_recall_reported_beside": true
+}

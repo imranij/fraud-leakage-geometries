@@ -1,0 +1,36 @@
+{
+  "retrain_eval": "fixed",
+  "defect_repaired": "DEVIATIONS.md 8.7 (retrained arm scored in-sample)",
+  "methods_sentence_followed": "In round t the adversary observes the deployed detector f_{t-1} through score queries only, with no gradient access ... The institution either retrains f_t on the labelled outcomes of round t after a labelling delay Delta, or does not retrain at all, which is the frozen detector of Hypothesis 3(a); a round is one labelling delay, because the adversary can respond only to what has been caught and labelled.",
+  "protocol": "round t: the deployed detector f_{t-1} scores the adversary's round-t records; those records are then labelled (one round = one labelling delay) and fit f_t; the adversary of round t+1 best-responds to f_t; f_t scores the new round-(t+1) records.",
+  "first_refit_at_round": 1,
+  "first_round_the_arms_can_differ": 2,
+  "frozen_arm_changed": false,
+  "q_grid": [
+    0.01,
+    0.05,
+    0.1,
+    0.25
+  ],
+  "kappa_grid": [
+    0.0,
+    0.1,
+    0.5
+  ],
+  "delta_grid_days": [
+    30,
+    90,
+    180
+  ],
+  "rounds": 10,
+  "primary": {
+    "q": 0.05,
+    "kappa": 0.1,
+    "delta": 90
+  },
+  "cells": "cross",
+  "datasets": [
+    "medicare"
+  ],
+  "command": "python3 e4_durability.py --retrain-eval fixed --datasets medicare --cells cross"
+}

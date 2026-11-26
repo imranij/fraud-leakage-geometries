@@ -1,0 +1,63 @@
+{
+  "host": "PaySim (PS_20174392719_1491204439457_log.csv), test split, 300000 records (seeded uniform subsample of 1248736)",
+  "tolerance_jsd": 0.1,
+  "jsd_literal_union_support": 1.0,
+  "jsd_coarse_mapping": 0.19224205234696934,
+  "shared_support_literal": [],
+  "verdict_literal": "FAIL",
+  "verdict_coarse": "FAIL",
+  "verdict": "FAIL",
+  "most_divergent_types": [
+    "atypical role",
+    "duplicate invoice",
+    "SPLIT_PAY"
+  ],
+  "most_divergent_detail": [
+    {
+      "type": "atypical role",
+      "injected_share": 0.0,
+      "real_share": 0.39554177490991366,
+      "abs_diff": 0.39554177490991366
+    },
+    {
+      "type": "duplicate invoice",
+      "injected_share": 0.0,
+      "real_share": 0.2693929998044638,
+      "abs_diff": 0.2693929998044638
+    },
+    {
+      "type": "SPLIT_PAY",
+      "injected_share": 0.25126239259748845,
+      "real_share": 0.0,
+      "abs_diff": 0.25126239259748845
+    }
+  ],
+  "injected_vocabulary": [
+    "DOUBLE_FX",
+    "DUP_EXACT",
+    "DUP_NEAR",
+    "SPLIT_PAY",
+    "TRANSPOSE",
+    "WRONG_PAYEE"
+  ],
+  "real_vocabulary": [
+    "atypical role",
+    "duplicate invoice",
+    "invoice before purchase order",
+    "repeated clearing",
+    "skipped goods receipt",
+    "value mismatch"
+  ],
+  "coarse_injected": {
+    "value-like": 0.24988764044943823,
+    "duplicate-like": 0.5846133509583609,
+    "party-like": 0.16549900859220093
+  },
+  "coarse_real": {
+    "control-step": 0.12743372719908377,
+    "duplicate-like": 0.460236319450264,
+    "value-like": 0.016788178440738568,
+    "party-like": 0.39554177490991366
+  },
+  "comparison_to_ULB_host": "same seeded vocabulary; the gate verdict does not depend on the host"
+}

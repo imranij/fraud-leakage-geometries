@@ -1,0 +1,8 @@
+{
+ "tolerance_jsd": 0.1,
+ "basis": "Jensen-Shannon divergence, log base 2, range [0,1]",
+ "fixed_at_utc": "2026-09-20T07:23:59.747794+00:00",
+ "fixed_before_distance_computed": true,
+ "fixed_before_seeded_results_produced": false,
+ "note": "configs/default.yaml carried not_prespecified; no tolerance existed before today"
+}

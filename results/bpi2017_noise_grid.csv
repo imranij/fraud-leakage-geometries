@@ -1,0 +1,5 @@
+noise_threshold,discovery_seconds,n_places,n_transitions,fitness,fitness_seconds,precision,precision_seconds,n_eval_variants,n_precision_variants,error
+0.2,5.19,40.0,56.0,0.9754283610292404,96.84,0.3849628380606084,48.21,15930.0,2000.0,
+0.4,,,,,,,,,,time budget
+0.1,,,,,,,,,,time budget
+0.0,,,,,,,,,,time budget

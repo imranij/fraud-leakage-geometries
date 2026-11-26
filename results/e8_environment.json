@@ -1,0 +1,6 @@
+{
+  "platform": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+  "python": "3.11.15",
+  "cpu_count": 2,
+  "mean_alignment_fitness_on_simulated_log": 0.9826675407925408
+}

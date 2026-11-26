@@ -1,0 +1,15 @@
+{
+  "status": "not computed",
+  "reason": "H3(c) -- stationarity of the deviation-type mix between halves of the log, its permutation reference, and conformance recall on outcome labels across replays -- requires the BPI Challenge 2019 log, which could not be obtained.",
+  "delta_grid_days": [
+    30,
+    90,
+    180
+  ],
+  "rounds": 10,
+  "calendar_mapping_years": {
+    "30": 0.821917808219178,
+    "90": 2.4657534246575343,
+    "180": 4.931506849315069
+  }
+}

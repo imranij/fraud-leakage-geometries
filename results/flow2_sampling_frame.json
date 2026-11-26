@@ -1,0 +1,13 @@
+{
+ "flow_type": "3-way match, invoice before GR",
+ "n_flow_cases": 221010,
+ "n_frame": 221010,
+ "sampled_negatives": false,
+ "n_variants": 7832,
+ "coverage_of_frame": 1.0,
+ "n_reference_cases": 111090,
+ "n_reference_variants": 669,
+ "noise_threshold": 0.2,
+ "seed": 0,
+ "seconds": 9.8
+}
