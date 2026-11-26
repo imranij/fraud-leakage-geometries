@@ -1,0 +1,14 @@
+{
+ "flow_type": "3-way match, invoice before GR",
+ "n_cases": 221010,
+ "n_positives": 3396,
+ "gini_positive_value": 0.7847902168002113,
+ "mean_positive_value": 9357.993816254417,
+ "median_positive_value": 1503.0,
+ "mean_value_all_cases": 3587.7789014071764,
+ "top1pct_of_positives_share_of_positive_value": 0.1664252393198725,
+ "top5pct_of_positives_share_of_positive_value": 0.42720233109470634,
+ "total_positive_value": 31779747.0,
+ "share_of_positive_value_in_top1pct_of_cases_by_value": 0.4688105289195663,
+ "share_of_positives_in_top1pct_of_cases_by_value": 0.05742049469964664
+}

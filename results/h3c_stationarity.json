@@ -1,0 +1,25 @@
+{
+ "jsd_between_halves": 0.027320593689440793,
+ "permutation_mean": 8.937417565581402e-05,
+ "permutation_q95": 0.00021162150246661085,
+ "permutation_p": 0.0,
+ "n_permutations": 1000,
+ "stationary": false,
+ "split_date": "2018-06-18 14:40:00",
+ "mix_first_half": {
+  "T_skipped_goods_receipt": 0.023999,
+  "T_invoice_before_purchase_order": 0.111063,
+  "T_duplicate_invoice": 0.298035,
+  "T_repeated_clearing": 0.229803,
+  "T_value_mismatch": 0.018639,
+  "T_atypical_role": 0.318461
+ },
+ "mix_second_half": {
+  "T_skipped_goods_receipt": 0.024652,
+  "T_invoice_before_purchase_order": 0.092313,
+  "T_duplicate_invoice": 0.230086,
+  "T_repeated_clearing": 0.137376,
+  "T_value_mismatch": 0.014248,
+  "T_atypical_role": 0.501325
+ }
+}

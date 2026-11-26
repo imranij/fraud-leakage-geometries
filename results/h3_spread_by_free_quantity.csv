@@ -1,0 +1,2 @@
+dataset,sd_across_q,sd_across_kappa,sd_across_retrain,note
+Medicare,0.077196016694156,,0.058690588037346315,"Delta enters only as the round-to-calendar mapping, so it produces no spread in R_t by round index."

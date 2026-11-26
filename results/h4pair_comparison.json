@@ -1,0 +1,35 @@
+{
+  "primary": {
+    "two_queue_VaB_total": 0.7950151059572105,
+    "single_queue_VaB_total": 0.7433856910808656,
+    "oracle_VaB_total": 1.7989205885470256,
+    "two_queue_VaB_F": 0.11396642153937535,
+    "two_queue_VaB_L": 0.6810486844178352,
+    "single_queue_VaB_F": 0.05687931011347943,
+    "single_queue_VaB_L": 0.6865063809673861,
+    "oracle_VaB_F": 0.8079780960308761,
+    "oracle_VaB_L": 0.9909424925161494,
+    "H4_primary_difference": 0.05162941487634487,
+    "share_of_oracle_gap_closed": 0.048913034519543284,
+    "n_winning_grid_points_at_K1pct": 8,
+    "worst_single_queue_advantage_at_K1pct": 0.0,
+    "VaB_L_identically_one": false
+  },
+  "equal_scale": {
+    "two_queue_VaB_total": 0.806418966375064,
+    "single_queue_VaB_total": 0.7580988188693473,
+    "oracle_VaB_total": 1.7979157591791717,
+    "two_queue_VaB_F": 0.1253702819572291,
+    "two_queue_VaB_L": 0.681048684417835,
+    "single_queue_VaB_F": 0.07705013445151236,
+    "single_queue_VaB_L": 0.681048684417835,
+    "oracle_VaB_F": 0.8108636085568307,
+    "oracle_VaB_L": 0.9870521506223411,
+    "H4_primary_difference": 0.04832014750571678,
+    "share_of_oracle_gap_closed": 0.04646985986910281,
+    "n_winning_grid_points_at_K1pct": 8,
+    "worst_single_queue_advantage_at_K1pct": 0.0,
+    "VaB_L_identically_one": false
+  },
+  "leak_scale_factor": 0.4985306605757814
+}

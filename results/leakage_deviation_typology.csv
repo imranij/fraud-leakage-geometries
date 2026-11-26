@@ -1,0 +1,36 @@
+deviation_type,flow_type,n_cases,n_in_flow,share
+skipped goods receipt,"3-way match, invoice after GR",1,15182,6.586747464102226e-05
+skipped goods receipt,"3-way match, invoice before GR",565,221010,0.002556445409709968
+skipped goods receipt,2-way match,303,1044,0.29022988505747127
+skipped goods receipt,Consignment,0,14498,0.0
+skipped goods receipt,ALL,869,251734,0.003452056535867225
+invoice before purchase order,"3-way match, invoice after GR",362,15182,0.02384402582005006
+invoice before purchase order,"3-way match, invoice before GR",2726,221010,0.01233428351658296
+invoice before purchase order,2-way match,605,1044,0.5795019157088123
+invoice before purchase order,Consignment,0,14498,0.0
+invoice before purchase order,ALL,3693,251734,0.014670247165658989
+duplicate invoice,"3-way match, invoice after GR",1327,15182,0.08740613884863654
+duplicate invoice,"3-way match, invoice before GR",8309,221010,0.03759558391023031
+duplicate invoice,2-way match,8,1044,0.007662835249042145
+duplicate invoice,Consignment,0,14498,0.0
+duplicate invoice,ALL,9644,251734,0.03831027989862315
+repeated clearing,"3-way match, invoice after GR",1011,15182,0.06659201686207351
+repeated clearing,"3-way match, invoice before GR",5817,221010,0.02632007601465997
+repeated clearing,2-way match,4,1044,0.0038314176245210726
+repeated clearing,Consignment,0,14498,0.0
+repeated clearing,ALL,6832,251734,0.027139758634113786
+value mismatch,"3-way match, invoice after GR",601,15182,0.03958635225925438
+value mismatch,"3-way match, invoice before GR",0,221010,0.0
+value mismatch,2-way match,0,1044,0.0
+value mismatch,Consignment,0,14498,0.0
+value mismatch,ALL,601,251734,0.00238744071122693
+atypical role,"3-way match, invoice after GR",1806,15182,0.1189566592016862
+atypical role,"3-way match, invoice before GR",11043,221010,0.0499660648839419
+atypical role,2-way match,124,1044,0.11877394636015326
+atypical role,Consignment,1187,14498,0.08187336184301283
+atypical role,ALL,14160,251734,0.056249851033233496
+ANY (union),"3-way match, invoice after GR",3247,15182,0.2138716901593993
+ANY (union),"3-way match, invoice before GR",22154,221010,0.10023980815347722
+ANY (union),2-way match,650,1044,0.6226053639846744
+ANY (union),Consignment,1187,14498,0.08187336184301283
+ANY (union),ALL,27238,251734,0.10820151429683714

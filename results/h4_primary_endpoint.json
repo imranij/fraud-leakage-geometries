@@ -1,0 +1,22 @@
+{
+  "host": "ULB credit-card test split with LeakBench-injected leakage (benchmark property)",
+  "budget": 0.01,
+  "lambda_F": 1.0,
+  "rho_L": 0.5,
+  "two_queue_VaB_total": 1.7804886884384783,
+  "single_queue_VaB_total": 1.7503279744762104,
+  "oracle_VaB_total": 1.9999999999999991,
+  "fraud_first_VaB_total": 1.6652784354517758,
+  "fixed_50_VaB_total": 1.6594874541676685,
+  "H4_primary_difference": 0.030160713962267938,
+  "share_of_oracle_gap_closed": 0.12080133486718649,
+  "n_grid_points_at_K1pct": 8,
+  "n_winning_grid_points_at_K1pct": 7,
+  "worst_single_queue_advantage_at_K1pct": 0.0,
+  "two_queue_VaB_F": 0.7804886884384791,
+  "two_queue_VaB_L": 0.9999999999999992,
+  "single_queue_VaB_F": 0.7503279744762112,
+  "single_queue_VaB_L": 0.9999999999999992,
+  "oracle_VaB_F": 1.0,
+  "oracle_VaB_L": 0.9999999999999992
+}

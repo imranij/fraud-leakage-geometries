@@ -1,0 +1,13 @@
+{
+ "n_events": 1595923,
+ "n_cases": 251734,
+ "n_activities": 42,
+ "flow_types": {
+  "3-way match, invoice before GR": 221010,
+  "3-way match, invoice after GR": 15182,
+  "Consignment": 14498,
+  "2-way match": 1044
+ },
+ "csv_rows_read": 1595923,
+ "seconds": 11.7
+}

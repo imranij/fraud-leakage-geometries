@@ -1,0 +1,46 @@
+outcome_activity,flow_type,n_cases_in_flow,window_A,window_B,window_C
+Cancel Invoice Receipt,"3-way match, invoice after GR",15182,65,371,564
+Cancel Invoice Receipt,"3-way match, invoice before GR",221010,803,2037,5897
+Cancel Invoice Receipt,2-way match,1044,0,0,10
+Cancel Invoice Receipt,Consignment,14498,0,0,0
+Cancel Invoice Receipt,ALL,251734,868,2408,6471
+Cancel Goods Receipt,"3-way match, invoice after GR",15182,3,51,440
+Cancel Goods Receipt,"3-way match, invoice before GR",221010,31,39,1824
+Cancel Goods Receipt,2-way match,1044,0,0,0
+Cancel Goods Receipt,Consignment,14498,0,0,206
+Cancel Goods Receipt,ALL,251734,34,90,2470
+Set Payment Block,"3-way match, invoice after GR",15182,0,2,61
+Set Payment Block,"3-way match, invoice before GR",221010,0,4,50
+Set Payment Block,2-way match,1044,0,0,11
+Set Payment Block,Consignment,14498,0,0,0
+Set Payment Block,ALL,251734,0,6,122
+Remove Payment Block,"3-way match, invoice after GR",15182,65,340,2230
+Remove Payment Block,"3-way match, invoice before GR",221010,91,1706,53608
+Remove Payment Block,2-way match,1044,0,0,1
+Remove Payment Block,Consignment,14498,0,0,0
+Remove Payment Block,ALL,251734,156,2046,55839
+Vendor creates debit memo,"3-way match, invoice after GR",15182,4,95,538
+Vendor creates debit memo,"3-way match, invoice before GR",221010,27,189,5440
+Vendor creates debit memo,2-way match,1044,2,2,10
+Vendor creates debit memo,Consignment,14498,0,0,0
+Vendor creates debit memo,ALL,251734,33,286,5988
+Change Price,"3-way match, invoice after GR",15182,49,189,1093
+Change Price,"3-way match, invoice before GR",221010,41,92,10080
+Change Price,2-way match,1044,0,0,10
+Change Price,Consignment,14498,0,0,41
+Change Price,ALL,251734,90,281,11224
+Change Quantity,"3-way match, invoice after GR",15182,5,17,858
+Change Quantity,"3-way match, invoice before GR",221010,76,131,15596
+Change Quantity,2-way match,1044,0,0,0
+Change Quantity,Consignment,14498,0,0,1136
+Change Quantity,ALL,251734,81,148,17590
+Delete Purchase Order Item,"3-way match, invoice after GR",15182,1,1,329
+Delete Purchase Order Item,"3-way match, invoice before GR",221010,28,33,8079
+Delete Purchase Order Item,2-way match,1044,2,2,9
+Delete Purchase Order Item,Consignment,14498,0,0,422
+Delete Purchase Order Item,ALL,251734,31,36,8839
+ANY (union),"3-way match, invoice after GR",15182,183,684,4437
+ANY (union),"3-way match, invoice before GR",221010,1053,3396,80189
+ANY (union),2-way match,1044,4,4,37
+ANY (union),Consignment,14498,0,0,1712
+ANY (union),ALL,251734,1240,4084,86375

@@ -1,0 +1,43 @@
+activity,code,n_events,n_cases
+Record Goods Receipt,9,314097,234479
+Create Purchase Order Item,7,251734,251734
+Record Invoice Receipt,10,228760,211379
+Vendor creates invoice,8,219919,209946
+Clear Invoice,11,194393,183677
+Record Service Entry Sheet,12,164975,5604
+Remove Payment Block,18,57136,55839
+Create Purchase Requisition Item,36,46592,46592
+Receive Order Confirmation,27,32065,32061
+Change Quantity,23,21449,17590
+Change Price,20,12423,11224
+Delete Purchase Order Item,21,8875,8839
+Change Approval for Purchase Order,32,7541,4377
+Cancel Invoice Receipt,16,7096,6471
+Vendor creates debit memo,15,6255,5988
+Change Delivery Indicator,17,3289,2975
+Cancel Goods Receipt,14,3096,2470
+SRM: In Transfer to Execution Syst.,4,1765,1440
+SRM: Created,0,1628,1440
+SRM: Awaiting Approval,2,1628,1440
+SRM: Document Completed,3,1628,1440
+SRM: Ordered,5,1628,1440
+SRM: Complete,1,1628,1440
+Release Purchase Order,33,1610,961
+SRM: Change was Transmitted,6,1440,1440
+Reactivate Purchase Order Item,29,543,529
+Block Purchase Order Item,31,514,499
+Cancel Subsequent Invoice,28,491,476
+Release Purchase Requisition,41,467,467
+Change Storage Location,37,415,364
+Update Order Confirmation,30,244,227
+SRM: Deleted,19,188,143
+Record Subsequent Invoice,34,167,159
+Set Payment Block,35,124,122
+SRM: Transfer Failed (E.Sys.),13,45,45
+Change Currency,38,35,35
+Change Final Invoice Indicator,24,11,11
+SRM: Transaction Completed,22,8,8
+Change payment term,39,7,7
+SRM: Incomplete,25,6,6
+SRM: Held,26,6,6
+Change Rejection Indicator,40,2,1

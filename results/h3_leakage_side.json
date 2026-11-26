@@ -1,0 +1,21 @@
+{
+  "status": "SUPERSEDED 2026-09-21",
+  "superseded_by": [
+    "h3c_stationarity.json",
+    "h3c_process_drift.csv",
+    "conf_replay_delta.csv"
+  ],
+  "note": "This file records H3(c) as 'not computed' because the BPI Challenge 2019 log could not be obtained. The log WAS obtained on 20 September 2026 (see DATA_PROVENANCE.md) and H3(c) was computed. The stationarity endpoint is in h3c_stationarity.json and the drift curve in h3c_process_drift.csv. Nothing in the manuscript reads this file.",
+  "original_reason": "H3(c) -- stationarity of the deviation-type mix between halves of the log, its permutation reference, and conformance recall on outcome labels across replays -- requires the BPI Challenge 2019 log, which could not be obtained.",
+  "calendar_mapping_years": {
+    "30": 0.821917808219178,
+    "90": 2.4657534246575343,
+    "180": 4.931506849315069
+  },
+  "delta_grid_days": [
+    30,
+    90,
+    180
+  ],
+  "rounds": 10
+}

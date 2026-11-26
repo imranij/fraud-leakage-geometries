@@ -1,0 +1,24 @@
+{
+  "status": "SUPERSEDED 2026-09-21",
+  "superseded_by": [
+    "conf_align_h1b_paired_tests.csv",
+    "conf_align_frame.csv",
+    "conf_align_phi_ablation_tests.csv",
+    "tabS5_leakage_population.csv",
+    "leakage_population_summary.json",
+    "e7_gate.json",
+    "h3c_stationarity.json",
+    "h4pair_primary_endpoint_primary.json"
+  ],
+  "note": "This file records H1 on the real log as 'not computed' because BPI Challenge 2019 could not be obtained. The log WAS obtained on 20 September 2026 and every item in 'affects' below was computed except the H5 leakage cases, which need participants. Nothing in the manuscript reads this file.",
+  "original_reason": "BPI Challenge 2019 could not be obtained (see DATA_PROVENANCE.md).",
+  "affects_and_where_they_now_live": {
+    "H1(a)": "conf_align_h1b_paired_tests.csv (CONF - GBDT (records) rows), h1a_diagnosis_summary.csv",
+    "H1(b)": "conf_align_h1b_paired_tests.csv (CONF - GBDT+phi rows)",
+    "leakage population (Table S5)": "tabS5_leakage_population.csv, leakage_population_summary.json",
+    "E7 gate": "e7_gate.json, e7_gate_paysim.json, e7ieee_gate.json (all three FAIL)",
+    "H3(c)": "h3c_stationarity.json, h3c_process_drift.csv",
+    "H4 leakage queue": "h4pair_primary_endpoint_primary.json, tab_vab_full_grid_periodfix.csv",
+    "H5 leakage cases": "still not computed: the practitioner study needs participants and ethics approval"
+  }
+}

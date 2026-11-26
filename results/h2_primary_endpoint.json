@@ -1,0 +1,17 @@
+{
+  "mean_diff": 0.05279683676376419,
+  "sd_diff": 0.06358686586436857,
+  "t_stat": 1.856630522607518,
+  "t_p": 0.13693366081805664,
+  "wilcoxon_p": 0.1875,
+  "sign_pos": 4,
+  "sign_n": 5,
+  "sign_p": 0.375,
+  "endpoint": "H2 primary: gain at pi=0.5 minus gain at pi=0 (unpaired across pi, paired by seed index)",
+  "gain_at_pi_0.5": 0.0520810084065241,
+  "gain_at_pi_0": -0.0007158283572400892,
+  "gain_at_pi_0.75": 0.040519272060203046,
+  "gain_at_pi_0.25": 0.027220434453273136,
+  "sd_gain_at_pi_0.5": 0.04812381189904538,
+  "sd_gain_at_pi_0": 0.02288332291239439
+}

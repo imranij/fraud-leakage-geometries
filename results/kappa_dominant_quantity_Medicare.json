@@ -1,0 +1,101 @@
+{
+  "dataset": "Medicare",
+  "arm": "frozen only (DEVIATIONS 8.7: the retrained arm is in-sample)",
+  "seeds_per_cell": 3,
+  "endpoint": "value-weighted recall at 1% FPR, round T=10",
+  "q_grid": [
+    0.01,
+    0.05,
+    0.1,
+    0.25
+  ],
+  "kappa_grid": [
+    0.0,
+    0.1,
+    0.5
+  ],
+  "delta_grid_days": [
+    30,
+    90,
+    180
+  ],
+  "q_arm": [
+    {
+      "q": 0.01,
+      "kappa": 0.1,
+      "mean": 0.14883519104648157,
+      "std": 0.0,
+      "count": 3
+    },
+    {
+      "q": 0.05,
+      "kappa": 0.1,
+      "mean": 0.1908238166718441,
+      "std": 0.0,
+      "count": 3
+    },
+    {
+      "q": 0.1,
+      "kappa": 0.1,
+      "mean": 0.1908238166718441,
+      "std": 0.0,
+      "count": 3
+    },
+    {
+      "q": 0.25,
+      "kappa": 0.1,
+      "mean": 0.2432130653244499,
+      "std": 0.0,
+      "count": 3
+    }
+  ],
+  "kappa_arm": [
+    {
+      "q": 0.05,
+      "kappa": 0.0,
+      "mean": 0.1908238166718441,
+      "std": 0.0,
+      "count": 3
+    },
+    {
+      "q": 0.05,
+      "kappa": 0.1,
+      "mean": 0.1908238166718441,
+      "std": 0.0,
+      "count": 3
+    },
+    {
+      "q": 0.05,
+      "kappa": 0.5,
+      "mean": 0.21161166662684042,
+      "std": 0.027818302804139446,
+      "count": 3
+    }
+  ],
+  "sd_across_q": 0.03864640913225403,
+  "sd_across_kappa": 0.01200187076739068,
+  "sd_across_delta": 0.0,
+  "range_across_q": 0.09437787427796832,
+  "range_across_kappa": 0.02078784995499633,
+  "range_across_delta": 0.0,
+  "pooled_within_cell_seed_sd": 0.011356774563396016,
+  "se_of_a_cell_mean": 0.006556836851302585,
+  "ranking": [
+    {
+      "quantity": "the plausibility quantile",
+      "sd": 0.03864640913225403
+    },
+    {
+      "quantity": "the cost parameter",
+      "sd": 0.01200187076739068
+    },
+    {
+      "quantity": "the labelling delay",
+      "sd": 0.0
+    }
+  ],
+  "margin_between_top_two": 0.026644538364863347,
+  "dominant_free_quantity": "the plausibility quantile",
+  "delta_note": "Delta enters only as the round-to-calendar mapping (a round is one labelling delay), so it produces no spread in R_t by round index: its spread is an exact zero by construction, not an unmeasured quantity.",
+  "all_three_varied": true
+}
