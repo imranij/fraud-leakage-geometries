@@ -1,0 +1,56 @@
+paths: {raw: data/raw, store: data/harmonised, runs: runs/}
+datasets: [ieeecis, ulb, baf_base, baf_variants, paysim, vehicle_claims, medicare]
+leakbench:
+  rates: [0.005, 0.01, 0.02]
+  hard: [false, true]
+  type_mix: {DUP_EXACT: 1, DUP_NEAR: 1, WRONG_PAYEE: 1, TRANSPOSE: 1, DOUBLE_FX: 0.5, SPLIT_PAY: 0.5}
+  seeds: [0, 1, 2]
+splits: {type: temporal, train_frac: 0.7, valid_frac: 0.1}
+budgets_k_frac: [0.005, 0.01, 0.02, 0.05]
+# Updated 2026-09-16
+triage:
+  grid: {lgf: [0.5, 1.0], recoverability: [0.2, 0.5, 0.8, 1.0]}     # report winning region, not one number
+  primary: {lgf: 1.0, recoverability: 0.5}
+  min_share: {F: 0.1, L: 0.1}
+  baselines: [oracle, single_queue, two_queue, fraud_first, fixed_50]
+  hours_variant: {run: true, effort_proxy: case_size}
+adversary:
+  plausibility: {model: gaussian_copula, check: conditional_flow, quantiles: [0.01, 0.05, 0.10, 0.25]}
+  cost_kappa: [0.0, 0.1, 0.5]
+  labelling_delay_days: [30, 90, 180, frozen]
+  rounds: 10                       # round length = labelling delay (calendar mapping reported)
+  retraining: {drift_schedule_days: 30, adversarial_between_rounds: [true, false]}
+  excluded_datasets: [ulb, paysim]  # PCA-only / simulated
+  llm_agent: {run_if_narrative_dataset_exists: true, model: unset, version: unset, date: unset, temperature: unset, watermark: true}
+leakage_labels:
+  source: outcome_activities        # NOT the conformance rules (comment 30-31)
+  outcome_activities: see code/e10_leakage_population.py
+  window_operationalisations: [A, B, C]
+  per_flow_type: true
+conformance:
+  miner: inductive_infrequent
+  noise_thresholds: [0.0, 0.1, 0.2, 0.4]
+  move_cost_weights: [0.5, 1.0, 2.0]
+  reference_set: cleared_no_correction_modal_variant_per_flow_type
+  v_l_model: loss_given_deviation   # Appendix conf
+h2: {mode: simulation, pi: [0.0, 0.25, 0.5, 0.75], positive_rate: 0.01}
+drift: {discover_on_fraction: 0.33, report_by: month, stationarity_test: jsd_permutation}
+leakbench_gate: {compare_to: bpi2019_deviation_mix, tolerance_jsd: not_prespecified}
+primary_metric: value_weighted_recall_at_fpr_1pct
+diad:
+  encoder: {gbdt_leaves: true, ft_transformer: true, d_model: 64}
+  loss: {focal_gamma: 2.0, beta_disentangle: 0.1, adversarial_eps: 0.05}
+seeds: [0, 1, 2, 3, 4]
+study:
+  design: fully_crossed            # both explanation forms for both intents (comment 64)
+  n_participants_target: 24
+  n_participants_pilot: 12
+  n_cases: 32
+  intents: [fraud, leakage]
+  conditions: [score_only, attribution, alignment, attribution_cf]
+  base_rate: 0.25                  # stated to participants; calibration measured
+  ground_truth: independent_adjudication_two_practitioners
+  order: latin_square
+  time_split: [reading, deliberation]
+  analysis: {accuracy: mixed_logit_random_intercept, time: mixed_log_time, likert: cumulative_link_mixed, fallback: conditional_logit}
+  ethics_approval: required_before_recruitment
